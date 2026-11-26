@@ -77,7 +77,7 @@ python lokalni_nifti_viewer.py
 
 ```text
 ├── app.py                   # Gradio web aplikacija za 3D segmentaciju i vizualizaciju
-├── lokalna_inferencija.py   # Skripta za lokalnu segmentaciju novih MRI snimki
+├── lokalna_inferencija.py   # Skripta za lokalnu segmentaciju novih MRI (NIfTI) snimki
 ├── lokalni_nifti_viewer.py  # Lokalni PyQt6 desktop preglednik za NIfTI snimke
 ├── best_segresnet.pt        # Trenirane težine SegResNet modela
 ├── requirements.txt         # Python paketi potrebni za pokretanje
