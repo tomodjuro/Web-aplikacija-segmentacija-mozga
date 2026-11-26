@@ -68,7 +68,7 @@ python app.py
 Za lokalni pregled NIfTI volumena i maski bez web preglednika pokreni desktop skriptu:
 
 ```bash
-python nifti_viewer.py
+python lokalni_nifti_viewer.py
 ```
 
 ---
@@ -76,11 +76,12 @@ python nifti_viewer.py
 ## 📁 Struktura repozitorija
 
 ```text
-├── app.py               # Gradio web aplikacija za 3D segmentaciju i vizualizaciju
-├── nifti_viewer.py      # Lokalni PyQt6 desktop preglednik za NIfTI snimke
-├── best_segresnet.pt    # Trenirane težine SegResNet modela
-├── requirements.txt     # Python paketi potrebni za pokretanje
-└── README.md            # Dokumentacija projekta
+├── app.py                   # Gradio web aplikacija za 3D segmentaciju i vizualizaciju
+├── lokalna_inferencija.py   # Skripta za lokalnu segmentaciju novih MRI snimki
+├── lokalni_nifti_viewer.py  # Lokalni PyQt6 desktop preglednik za NIfTI snimke
+├── best_segresnet.pt        # Trenirane težine SegResNet modela
+├── requirements.txt         # Python paketi potrebni za pokretanje
+└── README.md                # Dokumentacija projekta
 ```
 
 ---
