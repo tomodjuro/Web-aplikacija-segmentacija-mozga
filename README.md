@@ -76,12 +76,13 @@ python lokalni_nifti_viewer.py
 ## 📁 Struktura repozitorija
 
 ```text
-├── app.py                   # Gradio web aplikacija za 3D segmentaciju i vizualizaciju
-├── lokalna_inferencija.py   # Skripta za lokalnu segmentaciju novih MRI (NIfTI) snimki
-├── lokalni_nifti_viewer.py  # Lokalni PyQt6 desktop preglednik za NIfTI snimke
-├── best_segresnet.pt        # Trenirane težine SegResNet modela
-├── requirements.txt         # Python paketi potrebni za pokretanje
-└── README.md                # Dokumentacija projekta
+├── app.py                          # Gradio web aplikacija za 3D segmentaciju i vizualizaciju
+├── lokalna_inferencija.py          # Skripta za lokalnu segmentaciju novih MRI (NIfTI) snimki
+├── lokalni_nifti_viewer.py         # Lokalni PyQt6 desktop preglednik za NIfTI snimke
+├── best_segresnet.pt               # Trenirane težine SegResNet modela
+├── requirements.txt                # Python paketi potrebni za pokretanje
+├── treniranje_modela_kaggle.ipynb  # Skripta za treniranje modela na Kaggle-u
+└── README.md                       # Dokumentacija projekta
 ```
 
 ---
